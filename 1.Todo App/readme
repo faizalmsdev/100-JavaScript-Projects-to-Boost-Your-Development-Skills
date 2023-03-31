@@ -1,8 +1,8 @@
-<h1 align="left" >Project Documentation </h1>
-<h3 align="left"> Introduction </h3>
-<p>This project is a simple task list application that allows users to add and remove tasks from a list. The application is built using HTML, CSS, and JavaScript.</p>
+Project Documentation
+Introduction
+This project is a simple task list application that allows users to add and remove tasks from a list. The application is built using HTML, CSS, and JavaScript.
 
-<h3>Key Terms</h3>
+Key Terms
 HTML: HyperText Markup Language is a markup language used for creating web pages and applications.
 CSS: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in HTML.
 JavaScript: A high-level programming language used to create dynamic web applications and interactive user interfaces.
