@@ -1,0 +1,29 @@
+Project Documentation
+Introduction
+This project is a simple task list application that allows users to add and remove tasks from a list. The application is built using HTML, CSS, and JavaScript.
+
+Key Terms
+HTML: HyperText Markup Language is a markup language used for creating web pages and applications.
+CSS: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in HTML.
+JavaScript: A high-level programming language used to create dynamic web applications and interactive user interfaces.
+DOM: The Document Object Model is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content.
+eventListener: An interface in the DOM that can be used to add an event listener to a specific event on an element.
+form: An HTML element used to collect user input. It contains one or more input elements.
+input: An HTML element that allows users to enter data. It can be of different types such as text, number, email, etc.
+submit: An HTML input type used to submit data to a server.
+createElement: A method in JavaScript that creates a new HTML element.
+classList: A property in JavaScript that returns the class name(s) of an element.
+appendChild: A method in JavaScript that adds a new child element to a parent element.
+removeChild: A method in JavaScript that removes a child element from a parent element.
+Important Words
+Task: A piece of work that needs to be done.
+List: A collection of items that are related or belong together.
+Form: An interface used to collect data from users.
+Input: A field or control that allows users to enter data.
+Submit: To send data from a form to a server.
+Element: An HTML tag or DOM object.
+Add: To include or insert something new.
+Remove: To take something away or delete it.
+Listener: A function that waits for an event to occur before executing a specific action.
+Edit: To modify or change something.
+Delete: To remove or erase something.
