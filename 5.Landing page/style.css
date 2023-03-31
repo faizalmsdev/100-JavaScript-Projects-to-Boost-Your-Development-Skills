@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+}
+nav{
+    font-weight: 600;
+    font-family:sans-serif;
+    color: black;
+    font-size:16px;
+    display: inline;
+    padding-left: 3px;
+    word-spacing: 20px;
+    position: relative;
+    left: 74%;
+    bottom:28px;
+    padding-left: 20px;
+}
+#logo{
+    height: 36px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+header{
+    background-color: rgb(245, 245, 245);
+
+
+}
+#button{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color:  rgb(170, 210, 54);
+    padding:9px 34px;
+    border-radius: 4px;
+}
+#img{
+    width:100%;
+    height:100vh;
+}
+#section1{
+    display: inline;
+}
+#header1{
+    display: inline-block;
+    position: relative;
+    bottom:500px;
+    text-align: justify;
+    text-align: center;
+    left:250px;
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+
+}
+#mainp{
+    display:inline-block;
+    position:relative;
+    bottom:500px;
+    size: 17px;
+    width:100%;
+    max-width: 1100px;
+    text-align: justify;
+    text-align: center;
+    left:250px;
+    color:#000;
+    color:rgba(0,0,0,0.5);
+    word-spacing: 4px;
+    line-height: 1.2;
+
+}
+.dropdown{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    border-top: 2px solid rgb(170, 210,54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc ;
+    border-right: 120px;
+    margin-right: 280px;
+    margin-top:20px;
+    width: 120px;
+    position: absolute;
+    top:50px;
+    right:90px;
+    cursor: pointer;
+    display: block;
+    block-size: auto;  
+    display: none; 
+}
+.dropdown-elements{
+    text-align: justify;
+    text-align: center;
+    display: block;
+}
+.demo{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.demo:hover{
+
+    color: blueviolet;
+}
+.card{
+    font-family: sans-serif;
+    font-weight: 600;
+    Size: 24px;
+    height:500px;
+    width:25%;
+    padding:112px 48px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#card1{
+    background-color: #5acda6;
+
+
+}
+#card2{
+    background-color: #91ac41;
+
+}
+#card3{
+    background-color: #e4b476;;
+}
+#card4{
+    background-color: #f69dad;
+}
+i{
+    width: 96px;
+}
+.section2{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 252px;
+}
+#cut{
+    font-size: 60px;
+    text-align: center;
+    text-align: justify;
+}
+#cut:hover{
+    font-size: 70px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+#brush{
+    font-size: 60px;
+    text-align: center;
+    text-align: justify;
+}
+#brush:hover{
+    font-size: 70px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+#bag{
+    font-size: 60px;
+    text-align: center;
+    text-align: justify;
+}
+#bag:hover{
+    font-size: 70px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+#smile{
+    font-size: 60px;
+    text-align: center;
+    text-align: justify;
+}
+#smile:hover{
+    font-size: 70px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+.steps{
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.s2p{
+    font-weight: 200;
+    max-width: 250px;
+    padding-top: 10px;
+    color:#000;
+    color:rgba(0,0,0,0.5);
+}
+.section3{
+    background-color: #f7eee2;
+    width:100%;
+    height:100vh;
+    position: relative;
+    bottom:285px;
+}
+#freshfood{
+    Color: #91ac41;
+    font-size: 20px;
+    font-family : 'Caveat', cursive;
+    Margin: 0;
+    padding-top: 50px;
+    Margin-Top: 35px;
+    text-align: justify;
+    text-align: center;
+}
+#heading3{
+    text-align: justify;
+    text-align: center;
+}
+#sub{
+    text-align: center;
+    color:#000;
+    color:rgba(0,0,0,0.5);
+}
+.section3d{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+    padding-top:80px;
+}
+#one{
+    font-size: 100px;
+    text-align: center;
+    text-align: justify;
+}
+#one:hover{
+    font-size: 120px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+#two{
+    font-size: 100px;
+    text-align: center;
+    text-align: justify;
+}
+#two:hover{
+    font-size: 120px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+#three{
+    font-size: 100px;
+    text-align: center;
+    text-align: justify;
+}
+#three:hover{
+    font-size: 120px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+#four{
+    font-size: 100px;
+    text-align: center;
+    text-align: justify;
+}
+#four:hover{
+    font-size: 120px;
+    transition: ease-in;
+    transition: 0.3s;
+}
+.cards4{
+    
+    background-color: #f5f6fb;
+    width: 20%;
+    height:400px;
+    padding:112px 48px;
+    margin-left: 70px;
+    margin-top: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+.teimg{
+    border-radius: 50%;
+    width:80px;
+    position: relative;
+    bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.section4{
+    position: relative;
+    bottom: 250px;
+}
+#c1:hover{
+    background-color: rgb(209, 215, 215);
+    transition: 0.3s;
+    transition: ease-in-out;
+}
+#c2:hover{
+    background-color: rgb(209, 215, 215);
+    transition: 0.3s;
+    transition: ease-in-out;
+}
+#c3:hover{
+    background-color: rgb(209, 215, 215);
+    transition: 0.3s;
+    transition: ease-in-out;
+}
+.section5{
+    background-color: #f69dad;
+    padding-bottom: -100px;
+}
+#img11{
+    width:1050px;
+    height: 720px;
+}
+#img22{
+    position: relative;
+    display: inline;
+    height: 720px;
+    width:465px;
+}
+#text-heading{
+    position: relative;
+    display: inline;
+    bottom: 550px;
+    left:1170px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: #5acda6;
+    font-size: 40px;
+}
+#email{
+    position: relative;
+    bottom: 450px;
+    left:900px;
+    border: none;
+    height: 32px;
+    font-size: 18px;
+    padding-left: 12px;
+}
+#submit-btn{
+    position: relative;
+    bottom: 450px;
+    left:900px;
+    border: none;
+    background-color: #16a8cd;
+    height: 32px;
+    font-size: 18px;
+}
+#submit-btn:hover{
+    background-color: aqua;
+}
+
+.section5 #footer{
+    position: relative;
+    right:6%;
+}
+
+
+
+
+
