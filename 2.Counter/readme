@@ -1,0 +1,15 @@
+Documentation for Counter Application:
+
+This is a simple counting web application that allows users to increase, decrease, or reset a counter value. It also provides a save, load and clear functionality that uses the browser's local storage to store the counter value. The application consists of a main container that contains a header, counter, and save buttons. The counter element is divided into two sections: the counter value and counter controls.
+
+Key Terms:
+
+localStorage - a browser object that allows web pages to store key/value pairs locally within the user's browser. This can be used to store data that persists even after the user leaves the website.
+getItem() - a method used to retrieve a value from the local storage using a specified key.
+setItem() - a method used to store a key/value pair in the local storage.
+clear() - a method used to remove all key/value pairs from the local storage.
+querySelector() - a method used to select a single element in the HTML document using a specified CSS selector.
+addEventListener() - a method used to add an event listener to an element that executes a specified function when the specified event is triggered.
+switch - a conditional statement used to perform different actions based on different conditions. In this application, it is used to execute different actions based on the data-action attribute of the button clicked.
+innerText - a property used to set or return the text content of an element.
+Overall, this application demonstrates the use of HTML, CSS, and JavaScript to create a simple web application that uses local storage to store data and allows users to interact with it through a user interface.
