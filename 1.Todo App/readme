@@ -15,7 +15,10 @@ createElement: A method in JavaScript that creates a new HTML element.
 classList: A property in JavaScript that returns the class name(s) of an element.
 appendChild: A method in JavaScript that adds a new child element to a parent element.
 removeChild: A method in JavaScript that removes a child element from a parent element.
+
 Important Words
+
+
 Task: A piece of work that needs to be done.
 List: A collection of items that are related or belong together.
 Form: An interface used to collect data from users.
