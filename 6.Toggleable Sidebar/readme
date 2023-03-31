@@ -1,0 +1,24 @@
+Documentation for Toggleable Sidebar HTML/CSS/JS Project
+
+Introduction
+This is a project that showcases a toggleable sidebar using HTML, CSS, and JS. The sidebar is designed to be used in a dashboard, and it includes a logo, name, profession, search box, and navigation links.
+
+HTML Structure
+The project starts with a basic HTML structure that includes a head and body section. The head section includes meta tags for defining the character set and the viewport. It also includes a title tag and two link tags for importing the CSS and Boxicons libraries.
+
+The body section includes a nav tag with a class of 'sidebar', which represents the sidebar itself. The header section of the sidebar includes an image and a text section. The text section includes a name and a profession. There is also a menu bar that includes a search box and navigation links.
+
+CSS Styling
+The CSS file for the project styles the various elements in the sidebar. It sets the font, font size, and color of the text elements. It also styles the search box and navigation links. The CSS file is linked to the HTML file using the link tag in the head section.
+
+JavaScript Functionality
+The JavaScript file for the project adds functionality to the sidebar. It defines four variables: body, sidebar, toggle, and searchBtn, and then adds an event listener to the toggle variable that listens for a click event. When the toggle is clicked, it toggles the 'close' class on the sidebar element, which adds or removes a CSS animation to the sidebar, making it slide in or out of the screen.
+
+The script also toggles the opacity of the text elements and adds or removes the 'nav-link-close' class from the navigation links, which changes the opacity and visibility of the links when the sidebar is closed.
+
+Key Terms
+HTML: HyperText Markup Language is a standard markup language used to create web pages.
+CSS: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in HTML.
+JS: JavaScript is a high-level programming language used to create interactive effects within web browsers.
+Sidebar: A sidebar is a vertical column on a web page that appears beside the main content of the page, typically containing navigation links or other supplementary content.
+Toggle: The act of switching between two states, often used to add or remove classes in HTML/CSS.
