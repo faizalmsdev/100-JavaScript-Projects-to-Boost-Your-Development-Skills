@@ -1,0 +1,17 @@
+Documentation For Contact Form:
+
+The HTML code is a basic form that collects user information. It has four input fields: name, email, phone, and message. The form also has a button to submit the data entered by the user.
+
+The CSS code defines the styles for the HTML form. It gives the form a background color, sets the width to 90% with a maximum width of 600px, and centers the form within the container. The form input fields and text area have a background color, border-radius, and font size, and are centered within the form. The submit button has a unique color and border-radius.
+
+The JavaScript code is responsible for sending the data to the email. The sendEmail() function is called when the form is submitted. This function sends an email with the information entered in the form to a specified email address.
+
+Key Terms:
+
+HTML: Hypertext Markup Language is a standard markup language for creating web pages and web applications.
+CSS: Cascading Style Sheets is a language used for describing the presentation of a document written in HTML.
+JavaScript: A high-level programming language that is used to create interactive web pages and web applications.
+form: An HTML element that contains form controls, such as input fields and buttons, that allow the user to enter data.
+input: An HTML element that allows the user to enter data, such as text or numbers.
+button: An HTML element that is used to perform an action, such as submitting a form or resetting data.
+sendEmail(): A function that sends an email with the information entered in the form to a specified email address.
