@@ -1,0 +1,34 @@
+Calculator Documentation
+This is a basic calculator project built using HTML, CSS, and JavaScript. The calculator allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division.
+
+HTML
+The HTML code for this calculator contains the basic structure of a web page with the necessary elements. Here are the HTML elements used in this project:
+
+<!DOCTYPE html>: This specifies the type of document as an HTML file.
+<html lang="en">: This sets the language of the page to English.
+<head>: This contains the metadata for the page such as the title, character set, and viewport settings.
+<meta charset="UTF-8">: This specifies the character encoding for the page.
+<meta http-equiv="X-UA-Compatible" content="IE=edge">: This sets the compatibility mode for Internet Explorer.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: This sets the viewport for the page.
+<title>Calculator</title>: This sets the title of the page to "Calculator".
+<link href="style.css" rel="stylesheet">: This links the CSS stylesheet to the HTML file.
+<body>: This contains the content of the page.
+The calculator itself is built using the <form> element which contains several <input> elements. The <input> elements are used to create the buttons on the calculator.
+
+CSS
+The CSS code for this calculator styles the HTML elements to create a visually appealing design. Here are the CSS properties used in this project:
+
+*: This selects all elements and sets their margin, padding, font-family, and box-sizing properties to specific values.
+.container: This styles the container for the calculator by setting its width, height, background, and display properties.
+.calculator: This styles the calculator itself by setting its background, padding, and border-radius properties.
+.calculator form input: This styles the buttons on the calculator by setting their border, outline, width, height, border-radius, box-shadow, background, font-size, color, and cursor properties.
+form .display: This styles the display area for the calculator by setting its display, justify-content, and margin properties.
+form .display input: This styles the input field for the display area by setting its text-align, flex, font-size, and box-shadow properties.
+JavaScript
+The JavaScript code for this calculator contains the necessary functions to perform the basic mathematical operations. Here are the JavaScript functions used in this project:
+
+eval(): This function evaluates a string as a mathematical expression and returns the result.
+The JavaScript code is linked to the HTML file using the <script> element.
+
+Conclusion
+This calculator project is a basic example of how HTML, CSS, and JavaScript can be used to create a functional web application. The documentation provided explains the purpose of each code block and provides insight into how the project works.
