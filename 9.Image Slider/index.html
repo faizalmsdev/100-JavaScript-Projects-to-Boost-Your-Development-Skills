@@ -1,2 +1,59 @@
-file has been corrupted
-issues pending
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- slider Start  -->
+    <div class="slider">
+
+        <div class="slides">
+
+            <!-- Radio button start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <!-- <input type="radio" name="radio-btn" id="radio4"> -->
+            <!-- Radio button End -->
+
+            <!-- Slide Image start -->
+            <div class="slide first">
+                <img src="portfolio1.jpg" alt="">
+            </div>
+            <div class="slide ">
+                <img src="portfolio2.jpg" alt="">
+            </div>
+            <div class="slide ">
+                <img src="portfolio3.jpg" alt="">
+            </div>
+            <!-- <div class="slide fourth">
+                <img src="" alt="">
+            </div> -->
+            <!-- Slide Image End -->
+
+            <!-- Automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+            <!-- Automatic navigation End -->
+
+        </div>
+        
+        <!-- Manual Navigation Start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+        <!-- Manual Navigation End -->
+
+    </div>
+    <!-- slider End -->
+</body>
+</html>
