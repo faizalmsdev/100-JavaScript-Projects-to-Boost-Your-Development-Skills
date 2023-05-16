@@ -1,0 +1,28 @@
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
+
+This line selects all elements with the attribute data-modal-target and assigns them to the openModalButtons variable. These elements are typically buttons or triggers that open the modal.
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+
+This line selects all elements with the attribute data-close-button and assigns them to the closeModalButtons variable. These elements are typically buttons inside the modal that close the modal when clicked.
+const overlay = document.getElementById('overlay');
+
+This line selects the element with the id overlay and assigns it to the overlay variable. This element represents the overlay or background behind the modal.
+openModalButtons.forEach(button => { ... });
+
+This block of code adds a click event listener to each button in openModalButtons using the forEach method. When a button is clicked, it finds the corresponding modal element based on the data-modal-target attribute and calls the openModal function to open the modal.
+overlay.addEventListener('click', () => { ... });
+
+This code adds a click event listener to the overlay element. When the overlay is clicked, it finds all the active modal elements with the class .modal.active and calls the closeModal function to close them.
+closeModalButtons.forEach(button => { ... });
+
+This block of code adds a click event listener to each button in closeModalButtons using the forEach method. When a button is clicked, it finds the closest parent modal element using the .closest('.modal') method and calls the closeModal function to close it.
+function openModal(modal) { ... }
+
+This is the openModal function that takes a modal element as a parameter. It adds the class active to the modal element, making it visible by modifying its CSS properties. It also adds the class active to the overlay element, making it visible as well.
+function closeModal(modal) { ... }
+
+This is the closeModal function that takes a modal element as a parameter. It removes the class active from the modal element, hiding it. It also removes the class active from the overlay element, hiding it as well.
+window.addEventListener('keydown', (event) => { ... });
+
+This code adds a keydown event listener to the window object. When any key is pressed, the event is captured, and if the key pressed is the 'Escape' key, it finds all the active modal elements and calls the closeModal function to close them.
+The JavaScript code provides the necessary functionality to open and close modals based on button clicks and overlay clicks. It ensures that only one modal can be active at a time and allows users to close modals by clicking on the overlay or using the 'Escape' key.
