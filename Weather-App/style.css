@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+
+.container{
+    background-color: #f5f;
+    width:500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 0 20px rgb(0, 0, 0,0.2);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Montserrat",sans-serif;
+}
+
+h1{
+    padding-top: 15px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 35px;
+}
+
+#city-input{
+    height: 30px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px;
+}
+
+#submit{
+    /* font-size: 18px; */
+    padding:0 10px;
+    /* margin: 10px; */
+    color: #fff;
+    border: none;
+    background-color: rgb(0, 133, 250);
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+
+#submit:hover{
+    opacity: 70%;
+}
+
+#weather-data{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 20px;
+    gap: 30px;
+}
+
+.temperature{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.details div{
+    background-color: rgba(246, 0, 0, 0.896);
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(0, 0, 0,0.2);
+}
+
+.description{
+    font-size: 24px;
+}
+
