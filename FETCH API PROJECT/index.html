@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coin Data</h1>
+        <div class="buttons">
+            <!-- <button id="fetch-button">Fetch Data</button> -->
+          <input type="text" id="search-input" placeholder="Search by name or symbol">
+          <button id="sort-market-cap-button">Sort by Market Cap</button>
+          <button id="sort-percentage-change-button">Sort by Percentage Change</button>
+        </div>
+        <table id="coin-table">
+            <!-- <tr>
+                <th>Logo</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Current Price</th>
+                <th>Market Cap</th>
+                <th>24h % Change</th>
+              </tr> -->
+          <tbody id="coin-table-body">
+            <!-- Table rows will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
